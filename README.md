@@ -33,8 +33,8 @@
 
 ***
 ####专业技能
-* 熟练掌握Html，Css与 Javascript前端语言，能够快速学习和使用Jquery等第三方库
-* 熟练掌握Java语言，熟悉Spring和Hibernate框架及开发模式，了解Python等脚本语言特性
+* 熟练掌握Html，Css与Javascript前端语言，能够快速学习和使用Jquery等第三方库
+* 熟练掌握Java语言，熟悉Spring和Hibernate框架及开发模式，能够快速学习和使用Python、PHP等脚本语言
 * 熟练使用Git和Github进行团队协作开发
 * 熟练使用Photoshop软件
 * 英语六级水平

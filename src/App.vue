@@ -21,12 +21,21 @@
             <swiper-slide>
                 <intro></intro>
             </swiper-slide>
-            <swiper-slide>I'm Slide 2</swiper-slide>
-            <swiper-slide>I'm Slide 3</swiper-slide>
-            <swiper-slide>I'm Slide 4</swiper-slide>
-            <swiper-slide>I'm Slide 5</swiper-slide>
-            <swiper-slide>I'm Slide 6</swiper-slide>
-            <swiper-slide>I'm Slide 7</swiper-slide>
+            <swiper-slide>
+                <edu></edu>
+            </swiper-slide>
+            <swiper-slide>
+                <work></work>
+            </swiper-slide>
+            <swiper-slide>
+                <skill></skill>
+            </swiper-slide>
+            <swiper-slide>
+                <about></about>
+            </swiper-slide>
+            <swiper-slide>
+                <contact></contact>
+            </swiper-slide>
             <div class="swiper-pagination"  slot="pagination"></div>
         </swiper>
     </div>
@@ -34,6 +43,11 @@
 
 <script>
 import Intro from './components/intro.vue';
+import Edu from './components/edu.vue';
+import Work from './components/work.vue';
+import Skill from './components/skill.vue';
+import About from './components/about.vue';
+import Contact from './components/contact.vue';
 
 export default {
     name: 'carrousel',
@@ -49,7 +63,12 @@ export default {
         }
     },
     components: {
-        'intro': Intro
+        'intro': Intro,
+        'edu': Edu,
+        'work': Work,
+        'skill': Skill,
+        'about': About,
+        'contact': Contact
     }
 }
 </script>

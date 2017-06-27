@@ -18,7 +18,9 @@
             clickMode="push"
         ></vue-particles>
         <swiper :options="swiperOption" ref="mySwiper">
-            <swiper-slide>I'm Slide 1</swiper-slide>
+            <swiper-slide>
+                <intro></intro>
+            </swiper-slide>
             <swiper-slide>I'm Slide 2</swiper-slide>
             <swiper-slide>I'm Slide 3</swiper-slide>
             <swiper-slide>I'm Slide 4</swiper-slide>
@@ -31,6 +33,8 @@
 </template>
 
 <script>
+import Intro from './components/intro.vue';
+
 export default {
     name: 'carrousel',
     data() {
@@ -43,6 +47,9 @@ export default {
                 onlyExternal : true
             }
         }
+    },
+    components: {
+        'intro': Intro
     }
 }
 </script>
@@ -55,6 +62,7 @@ html, body{
 
 #app {
     height: 100%;
+    position: relative;
 }
 
 #particles-js {

@@ -52,7 +52,8 @@ import Skill from './components/skill.vue';
 import About from './components/about.vue';
 import Contact from './components/contact.vue';
 
-import data from './data.zh.json';
+import data_zh from './json/data.zh.json';
+import data_en from './json/data.en.json';
 
 export default {
     name: 'carrousel',
@@ -65,12 +66,19 @@ export default {
                 mousewheelControl : true,
                 onlyExternal : true
             },
-            resume: data
+            resume: data_zh,
+            lang: 'zh'
         }
     },
     methods: {
         changeLang: function() {
-            console.log('This is btn');
+            if (this.lang === 'zh') {
+                this.lang = 'en';
+                this.resume = data_en;
+            } else {
+                this.lang = 'zh';
+                this.resume = data_zh;
+            }
         }
     },
     components: {

@@ -18,7 +18,7 @@
             clickMode="push"
         ></vue-particles>
         <span class="change-lang" @click="changeLang">
-            <icon name="globe" scale="2"></icon>
+            <icon name="language" scale="2"></icon>
         </span>
         <swiper :options="swiperOption" ref="mySwiper">
             <swiper-slide>

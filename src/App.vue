@@ -101,7 +101,7 @@ html, body{
 #app {
     height: 100%;
     position: relative;
-    color: #dedede;
+    color: #777;
 }
 
 #particles-js {
@@ -130,5 +130,9 @@ span.change-lang {
 .swiper-slide {
     color: #000;
     font-size: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #777;
 }
 </style>

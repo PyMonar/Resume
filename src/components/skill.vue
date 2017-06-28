@@ -1,18 +1,14 @@
 <template>
     <div id="skill">
         <h1>
-            {{title}}
+            {{skill.title}}
         </h1>
     </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            title: `Monar's Skill`
-        }
-    }
+    props: ['skill']
 }
 </script>
 

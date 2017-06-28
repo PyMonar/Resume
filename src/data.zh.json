@@ -1,0 +1,29 @@
+{
+    "intro": {
+        "title": "柔水刻刀"
+    },
+    "edu": {
+        "title": "教育经历",
+        "list": [{
+            "period": "2009-2013",
+            "school": "北京航空航天大学",
+            "degree": "学士"
+        }, {
+            "period": "2013-2015",
+            "school": "北京航空航天大学",
+            "degree": "硕士"
+        }]
+    },
+    "work": {
+        "title": "工作经历"
+    },
+    "skill": {
+        "title": "技术能力"
+    },
+    "about": {
+        "title": "关于我"
+    },
+    "contact": {
+        "title": "联系我"
+    }
+}

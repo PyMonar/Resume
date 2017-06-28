@@ -1,18 +1,14 @@
 <template>
     <div id="contact">
         <h1>
-            {{title}}
+            {{contact.title}}
         </h1>
     </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            title: `Contact Me`
-        }
-    }
+    props: ['contact']
 }
 </script>
 

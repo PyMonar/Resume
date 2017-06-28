@@ -1,18 +1,14 @@
 <template>
     <div id="intro">
         <h1>
-            {{title}}
+            {{intro.title}}
         </h1>
     </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            title: `Monar's Resume`
-        }
-    }
+    props: ['intro']
 }
 </script>
 

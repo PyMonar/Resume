@@ -22,22 +22,22 @@
         </span>
         <swiper :options="swiperOption" ref="mySwiper">
             <swiper-slide>
-                <intro></intro>
+                <intro :intro="resume.intro"></intro>
             </swiper-slide>
             <swiper-slide>
-                <edu></edu>
+                <edu :edu="resume.edu"></edu>
             </swiper-slide>
             <swiper-slide>
-                <work></work>
+                <work :work="resume.work"></work>
             </swiper-slide>
             <swiper-slide>
-                <skill></skill>
+                <skill :skill="resume.skill"></skill>
             </swiper-slide>
             <swiper-slide>
-                <about></about>
+                <about :about="resume.about"></about>
             </swiper-slide>
             <swiper-slide>
-                <contact></contact>
+                <contact :contact="resume.contact"></contact>
             </swiper-slide>
             <div class="swiper-pagination"  slot="pagination"></div>
         </swiper>
@@ -52,6 +52,8 @@ import Skill from './components/skill.vue';
 import About from './components/about.vue';
 import Contact from './components/contact.vue';
 
+import data from './data.zh.json';
+
 export default {
     name: 'carrousel',
     data() {
@@ -62,7 +64,8 @@ export default {
                 paginationClickable :true,
                 mousewheelControl : true,
                 onlyExternal : true
-            }
+            },
+            resume: data
         }
     },
     methods: {

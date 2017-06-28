@@ -1,0 +1,29 @@
+{
+    "intro": {
+        "title": "Monar's Intro"
+    },
+    "edu": {
+        "title": "Monar's Education",
+        "list": [{
+            "period": "2009-2013",
+            "school": "Beihang University",
+            "degree": "Bachelor Degree"
+        }, {
+            "period": "2013-2015",
+            "school": "Beihang University",
+            "degree": "Master Degree"
+        }]
+    },
+    "work": {
+        "title": "Monar's Work"
+    },
+    "skill": {
+        "title": "Monar's Skill"
+    },
+    "about": {
+        "title": "About Me"
+    },
+    "contact": {
+        "title": "Contact Me"
+    }
+}

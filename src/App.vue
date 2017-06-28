@@ -17,6 +17,9 @@
             :clickEffect="true"
             clickMode="push"
         ></vue-particles>
+        <span class="change-lang" @click="changeLang">
+            <icon name="globe" scale="2"></icon>
+        </span>
         <swiper :options="swiperOption" ref="mySwiper">
             <swiper-slide>
                 <intro></intro>
@@ -62,6 +65,11 @@ export default {
             }
         }
     },
+    methods: {
+        changeLang: function() {
+            console.log('This is btn');
+        }
+    },
     components: {
         'intro': Intro,
         'edu': Edu,
@@ -82,6 +90,7 @@ html, body{
 #app {
     height: 100%;
     position: relative;
+    color: #dedede;
 }
 
 #particles-js {
@@ -91,6 +100,16 @@ html, body{
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+span.change-lang {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    z-index: 999;
+    cursor: pointer;
 }
 
 .swiper-container {

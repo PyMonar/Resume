@@ -3,6 +3,11 @@ import App from './App.vue';
 import VueParticles from 'vue-particles';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 
+import 'vue-awesome/icons';
+import Icon from 'vue-awesome/components/Icon.vue';
+
+Vue.component('icon', Icon);
+
 Vue.use(VueParticles);
 Vue.use(VueAwesomeSwiper);
 

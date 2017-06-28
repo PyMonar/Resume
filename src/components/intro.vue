@@ -8,32 +8,29 @@
         </div>
         <ul id="urls">
             <li>
-                <a :href="intro.github" target="_blank">
-                    <icon name="github" scale="2.5"></icon>
-                </a>
+                <icon-link name="github" scale="2.5" :url="intro.github"></icon-link>
             </li>
             <li>
-                <a :href="intro.twitter" target="_blank">
-                    <icon name="twitter" scale="2.5"></icon>
-                </a>
+                <icon-link name="twitter" scale="2.5" :url="intro.twitter"></icon-link>
             </li>
             <li>
-                <a :href="intro.weibo" target="_blank">
-                    <icon name="weibo" scale="2.5"></icon>
-                </a>
+                <icon-link name="weibo" scale="2.5" :url="intro.weibo"></icon-link>
             </li>
             <li>
-                <a :href="intro.zhihu" target="_blank">
-                    <icon name="chrome" scale="2.5"></icon>
-                </a>
+                <icon-link name="chrome" scale="2.5" :url="intro.zhihu"></icon-link>
             </li>
         </ul>
     </div>
 </template>
 
 <script>
+import iconLink from './common/iconLink.vue';
+
 export default {
-    props: ['intro']
+    props: ['intro'],
+    components: {
+        iconLink
+    }
 }
 </script>
 
@@ -79,10 +76,5 @@ h1 {
     float: left;
     list-style-type: none;
     text-align: center;
-}
-
-#urls li a {
-    text-decoration: none;
-    color: #AAA;
 }
 </style>

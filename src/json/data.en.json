@@ -1,6 +1,12 @@
 {
     "intro": {
-        "title": "Monar's Intro"
+        "title": "Monar's Resume",
+        "desc": "Practice makes perfect",
+        "github": "https://github.com/PyMonar",
+        "twitter": "https://twitter.com/pyqttzbrqc",
+        "weibo": "http://weibo.com/pyqtt",
+        "zhihu": "https://www.zhihu.com/people/monar",
+        "mypage": "http://pymonar.com"
     },
     "edu": {
         "title": "Monar's Education",

@@ -96,6 +96,7 @@ export default {
 html, body{
     overflow: hidden;
     height: 100%;
+    font-family: Geomanist, sans-serif;
 }
 
 #app {
@@ -127,10 +128,6 @@ span.change-lang {
     height: 100%;
 }
 
-.swiper-slide {
-    color: #000;
-    font-size: 30px;
-}
 
 .swiper-pagination-bullet-active {
     background: #777;

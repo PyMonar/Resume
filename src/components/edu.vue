@@ -3,39 +3,16 @@
         <h1>
             {{edu.title}}
         </h1>
-        <div class="edu-item">
+        <div v-for="item in edu.list" class="edu-item">
             <div class="period">
-                2013-2016
+                {{item.period}} <span class="pointer"></span>
             </div>
             <div class="state">
                 <div class="school">
-                    BeiHang University
+                    {{item.school}}
                 </div>
                 <div class="detail">
-                    <span class="major">
-                        Software Engineering
-                    </span>
-                    <span class="degree">
-                        Master Degree
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="edu-item">
-            <div class="period">
-                2013-2016
-            </div>
-            <div class="state">
-                <div class="school">
-                    BeiHang University
-                </div>
-                <div class="detail">
-                    <span class="major">
-                        Software Engineering
-                    </span>
-                    <span class="degree">
-                        Master Degree
-                    </span>
+                    {{item.major}} · {{item.degree}}
                 </div>
             </div>
         </div>
@@ -55,7 +32,7 @@ export default {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -135px;
+    margin-top: -160px;
     margin-left: -350px;
 }
 
@@ -76,40 +53,46 @@ h1 {
 }
 
 .period {
-    margin: 30px 0;
+    margin: 30px 20px 30px 80px;
     height: 40px;
     line-height: 40px;
-    width: 249px;
+    width: 209px;
     float: left;
     border-right: 1px solid #DDDDDD;
     text-align: center;
     font-size: 25px;
+    color: #FFFFFF;
+    background: #DDDDDD;
+    border-radius: 5px;
+}
+
+.pointer {
+    float: right;
+    border-left: 10px solid #DDD;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-right: -20px;
+    margin-top: 10px;
 }
 
 .state {
-    width: 350px;
+    width: 300px;
     height: 80px;
     float: right;
-    padding: 20px 50px 0 50px;
+    padding: 20px 50px 0 0;
 }
 
 .school {
     font-size: 30px;
     display:table-cell; 
     vertical-align: bottom;
+    font-weight: bold;
 }
 
 .detail {
     height: 40px;
     line-height: 40px;
     overflow: hidden;
-}
-
-.major {
-    float: left;
-}
-
-.degree {
-    float: right;
 }
 </style>

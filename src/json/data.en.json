@@ -11,12 +11,12 @@
     "edu": {
         "title": "Education",
         "list": [{
-            "period": "2013-2016",
+            "period": "2013~2016",
             "school": "Beihang University",
             "major": "Software Engineering",
             "degree": "Master Degree"
         }, {
-            "period": "2009-2013",
+            "period": "2009~2013",
             "school": "Beihang University",
             "major": "Software Engineering",
             "degree": "Bachelor Degree"

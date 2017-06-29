@@ -13,5 +13,10 @@ export default {
 <style scoped>
 a {
     color: #AAAAAA;
+    transition: .5s;
+}
+
+a:hover {
+    color: #777777;
 }
 </style>

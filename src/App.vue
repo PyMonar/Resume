@@ -66,8 +66,8 @@ export default {
                 mousewheelControl : true,
                 onlyExternal : true
             },
-            resume: data_zh,
-            lang: 'zh'
+            resume: data_en,
+            lang: 'en'
         }
     },
     methods: {

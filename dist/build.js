@@ -30312,13 +30312,13 @@ module.exports = {
 				"period": "2013~2016",
 				"school": "Beihang University",
 				"major": "Software Engineering",
-				"degree": "Master Degree"
+				"degree": "Master"
 			},
 			{
 				"period": "2009~2013",
 				"school": "Beihang University",
 				"major": "Software Engineering",
-				"degree": "Bachelor Degree"
+				"degree": "Bachelor"
 			}
 		]
 	},

@@ -17963,6 +17963,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['work']
@@ -18083,7 +18096,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "#work[data-v-487204eb]{height:200px;width:500px;position:absolute;top:50%;left:50%;margin-top:-100px;margin-left:-250px}h1[data-v-487204eb]{margin:0;height:200px;line-height:200px;font-size:50px;color:#ddd;text-align:center}", ""]);
+exports.push([module.i, "#work[data-v-487204eb]{height:270px;width:900px;position:absolute;top:50%;left:50%;margin-top:-160px;margin-left:-450px}h1[data-v-487204eb]{margin:0;height:50px;line-height:50px;font-size:50px;color:#ddd;text-align:center;border-bottom:1px solid #ddd;padding-bottom:20px}.work-item[data-v-487204eb]{height:100px;overflow:hidden}.period[data-v-487204eb]{margin:30px 20px 30px 80px;height:40px;line-height:40px;width:259px;float:left;border-right:1px solid #ddd;text-align:center;font-size:25px;color:#fff;background:#ddd;border-radius:5px}.pointer[data-v-487204eb]{float:right;border-left:10px solid #ddd;border-right:10px solid transparent;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-right:-20px;margin-top:10px}.state[data-v-487204eb]{width:450px;height:80px;float:right;padding:20px 50px 0 0}.company[data-v-487204eb]{font-size:21px;display:table-cell;vertical-align:bottom;font-weight:700}.detail[data-v-487204eb]{height:40px;line-height:40px;overflow:hidden}", ""]);
 
 // exports
 
@@ -29981,7 +29994,21 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "work"
     }
-  }, [_c('h1', [_vm._v("\n        " + _vm._s(_vm.work.title) + "\n    ")])])
+  }, [_c('h1', [_vm._v("\n        " + _vm._s(_vm.work.title) + "\n    ")]), _vm._v(" "), _vm._l((_vm.work.list), function(item) {
+    return _c('div', {
+      staticClass: "work-item"
+    }, [_c('div', {
+      staticClass: "period"
+    }, [_vm._v("\n            " + _vm._s(item.period) + " "), _c('span', {
+      staticClass: "pointer"
+    })]), _vm._v(" "), _c('div', {
+      staticClass: "state"
+    }, [_c('div', {
+      staticClass: "company"
+    }, [_vm._v("\n                " + _vm._s(item.company) + "\n            ")]), _vm._v(" "), _c('div', {
+      staticClass: "detail"
+    }, [_vm._v("\n                " + _vm._s(item.department) + " · " + _vm._s(item.job) + "\n            ")])])])
+  })], 2)
 },staticRenderFns: []}
 
 /***/ }),
@@ -30323,7 +30350,21 @@ module.exports = {
 		]
 	},
 	"work": {
-		"title": "Monar's Work"
+		"title": "Work",
+		"list": [
+			{
+				"period": "2016.03~Now",
+				"company": "Yonyou Network Technology Co., Ltd.",
+				"department": "HRCloud Department",
+				"job": "Front-end Engineer"
+			},
+			{
+				"period": "2015.05~2015.10",
+				"company": "Baidu Times Network Technology Co., Ltd.",
+				"department": "Big Data Library",
+				"job": "Front-end Engineer(Trainee)"
+			}
+		]
 	},
 	"skill": {
 		"title": "Monar's Skill"
@@ -30368,7 +30409,21 @@ module.exports = {
 		]
 	},
 	"work": {
-		"title": "工作经历"
+		"title": "工作经历",
+		"list": [
+			{
+				"period": "2016.03~今",
+				"company": "用友网络科技股份有限公司",
+				"department": "友人才开发部",
+				"job": "前端开发工程师"
+			},
+			{
+				"period": "2015.05~2015.10",
+				"company": "百度时代网络技术有限公司",
+				"department": "大数据实验室",
+				"job": "前端开发工程师(实习)"
+			}
+		]
 	},
 	"skill": {
 		"title": "技术能力"

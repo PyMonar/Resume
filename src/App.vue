@@ -33,9 +33,9 @@
             <swiper-slide>
                 <skill :skill="resume.skill"></skill>
             </swiper-slide>
-            <swiper-slide>
+            <!--<swiper-slide>
                 <about :about="resume.about"></about>
-            </swiper-slide>
+            </swiper-slide>-->
             <swiper-slide>
                 <contact :contact="resume.contact"></contact>
             </swiper-slide>

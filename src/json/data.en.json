@@ -23,7 +23,18 @@
         }]
     },
     "work": {
-        "title": "Monar's Work"
+        "title": "Work",
+        "list": [{
+            "period": "2016.03~Now",
+            "company": "Yonyou Network Technology Co., Ltd.",
+            "department": "HRCloud Department",
+            "job": "Front-end Engineer"
+        }, {
+            "period": "2015.05~2015.10",
+            "company": "Baidu Times Network Technology Co., Ltd.",
+            "department": "Big Data Library",
+            "job": "Front-end Engineer(Trainee)"
+        }]
     },
     "skill": {
         "title": "Monar's Skill"
